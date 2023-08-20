@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "name": "Oranges",
+            "raw": "oranges",
+            "quantity": 3,
+            "uom": "g",
+            "measurement": 300,
+            "type": "fruit",
+            "expiration_date": 29862,
+            "pyrchase_date": 209628,
+            "origin": "Guatemala",
+            "store": "Waitrose"
+        },
+        {
+            "name": "Cheddar",
+            "raw": "cheese",
+            "quantity": 1,
+            "uom": "g",
+            "measurement": 200,
+            "type": "dairy",
+            "expiration_date": 29862,
+            "pyrchase_date": 209628,
+            "origin": "UK",
+            "store": "Waitrose"
+        },
+        {
+            "name": "Milk",
+            "raw": "milk",
+            "quantity": 1,
+            "uom": "ml",
+            "measurement": 1500,
+            "type": "dairy",
+            "expiration_date": 29862,
+            "pyrchase_date": 209628,
+            "origin": "UK",
+            "store": "Waitrose"
+        },
+        {
+            "name": "Tofu",
+            "raw": "tofu",
+            "quantity": 1,
+            "uom": "g",
+            "measurement": 400,
+            "type": "tofu",
+            "expiration_date": 29862,
+            "pyrchase_date": 209628,
+            "origin": "UK",
+            "store": "Waitrose"
+        }
+    ]
+}
