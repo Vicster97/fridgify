@@ -38,7 +38,7 @@ function Data() {
         <div className='dataPageContainer'>
             <Navbar/>
             <div className="page-body">
-                <h1 className="page-welcome-message">Welcome to Data Page of WhatIsUp?</h1>
+                <h1 className="page-welcome-message">Welcome to Data Page of Fridgify</h1>
                 <h3 className="page-message"> What will you analyse today? </h3>
                 {
                     data? 
