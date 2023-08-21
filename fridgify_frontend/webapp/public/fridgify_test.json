@@ -8,7 +8,7 @@
             "measurement": 300,
             "type": "fruit",
             "expiration_date": 29862,
-            "pyrchase_date": 209628,
+            "purchase_date": 209628,
             "origin": "Guatemala",
             "store": "Waitrose"
         },
@@ -20,7 +20,7 @@
             "measurement": 200,
             "type": "dairy",
             "expiration_date": 29862,
-            "pyrchase_date": 209628,
+            "purchase_date": 209628,
             "origin": "UK",
             "store": "Waitrose"
         },
@@ -32,7 +32,7 @@
             "measurement": 1500,
             "type": "dairy",
             "expiration_date": 29862,
-            "pyrchase_date": 209628,
+            "purchase_date": 209628,
             "origin": "UK",
             "store": "Waitrose"
         },
@@ -44,7 +44,7 @@
             "measurement": 400,
             "type": "tofu",
             "expiration_date": 29862,
-            "pyrchase_date": 209628,
+            "purchase_date": 209628,
             "origin": "UK",
             "store": "Waitrose"
         }

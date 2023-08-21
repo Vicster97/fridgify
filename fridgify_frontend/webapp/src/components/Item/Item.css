@@ -1,0 +1,17 @@
+.item {
+    width: 25%;
+    border-radius: 20px;
+    border-color: blueviolet;
+    border: 1px;
+    border-style: solid;
+    margin: 5px;
+}
+
+.text {
+    margin: 10px;
+    text-align: center;
+    display: block;
+    flex: auto;
+    color: white;
+}
+

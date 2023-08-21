@@ -4,9 +4,10 @@ import Navbar from "../../components/Navbar/Navbar";
 
 import "./../globals.css"
 import { useEffect, useState } from "react";
+import Item from "@/components/Item/Item";
 
 function Data() {
-    const [data, setData] = useState(null)
+    const [data, setData] = useState([])
     const userId = '12345'
 
     // fetch function
@@ -33,7 +34,8 @@ function Data() {
     useEffect(()=> {
         fetchData("./fridgify_test.json", setData);
     }, [userId])
-
+    
+    console.log("data", data)
     return (
         <div className='dataPageContainer'>
             <Navbar/>
@@ -41,9 +43,13 @@ function Data() {
                 <h1 className="page-welcome-message">Welcome to Data Page of Fridgify</h1>
                 <h3 className="page-message"> What will you analyse today? </h3>
                 {
-                    data? 
-                    <div>
-                        Data is here
+                    data ? 
+                    <div> 
+                        {
+                            data.map((item) => {
+                                return Item(item)
+                            })
+                        }
                     </div>
                     :
                     <h4>Sorry data couldn't load</h4>
