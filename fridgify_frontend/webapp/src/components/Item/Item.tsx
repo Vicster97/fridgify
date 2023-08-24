@@ -1,6 +1,6 @@
 import "./Item.css"
 
-type ItemProps = {
+export type ItemProps = {
     name: string,
     raw: string,
     quantity: number,
@@ -16,8 +16,8 @@ const Item = (props:ItemProps) => {
     const { name, measurement, uom, expiration_date } = props;
     console.log("name", name, measurement)
     return (
-        <div className="item">
-            <p key={name} className="text"> { name }</p>
+        <div key={name} className="item">
+            <p key="ietm" className="text"> { name }</p>
             <p key="measurement" className="text"> Amount: {measurement} {uom} </p>
             <p key="expDate" className="text"> Expiration Date: {uom} </p>
         </div>
